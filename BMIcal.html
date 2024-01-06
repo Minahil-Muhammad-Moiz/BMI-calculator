@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="BMIcal.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="card ">
+            <div class="card-header">
+              BMI CALCULATOR
+            </div>
+            <div class="card-body">
+              <form>
+                <label for="weight">Weight in kg: </label><input type="text" id="weight">
+                <label for="height">Height in cm: </label><input type="text" id="height">
+                <button class='btn' id="cal">Calculate</button>
+              </form>
+            </div>
+            <div class="card-footer" >
+              <p id="results">Results</p>
+              <p id="guide">Guide</p>
+            </div>
+          </div>
+    </div>
+    <script src="BMIcal.js"></script>
+  </body>
+</html>
